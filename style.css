@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+#wrapper{
+    height: 100vh;
+    position: relative;
+    overflow-x:hidden;
+    overflow-y: auto;
+    perspective: 10px;
+    scroll-behavior: smooth;
+    
+    
+}
+.container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    object-fit: cover;
+    z-index: -1;
+    white-space: nowrap;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateZ(-60px) scale(7);
+    z-index: -1;
+    
+}
+   
+.foreground{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   transform: translateZ(-15px) scale(2.5); 
+    z-index: -1;
+   
+
+    
+}
+h1{
+
+    color: white;
+    position:absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 5rem;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+  
+.at1{
+background-color: rgb(41, 40, 40);
+font-size: 1.5rem;
+}
+
+
+.c1{
+    background-image: url(istria-bike-tour-sunset.jpg);
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    color: aliceblue;
+    position: relative;
+
+
+}
+
+.desc{
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    text-shadow: 0 0 3px black;
+    border: 1px solid whilte;
+}
+.biking{
+    font-size: 1.5rem;
+    background-color: rgb(41, 40, 40);
+    
+}
+
+.text{
+    padding: 20px;
+    margin-left: 5px;
+    color: rgba(164, 164, 157,0.6);
+}
+
+.biking{
+    padding: 20px;
+    margin-left: 5px;
+    color: rgba(164, 164, 157,0.6);
+
+}
+
+.c2{
+    background-image: url(trekking.jpg);
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    color: aliceblue;
+    position: relative;
+
+
+}
+
+.c3{
+    background-image: url(pexels-jahoo-clouseau-382177.jpg);
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    color: aliceblue;
+    position: relative;
+}
+
+.paragliding{
+    padding: 20px;
+    margin-left: 5px;
+    color: rgba(164, 164, 157,0.6);
+    font-size: 1.5rem;
+    background-color: rgb(41, 40, 40);
+
+}
+
+.trekking{
+    padding: 20px;
+    margin-left: 5px;
+    color: rgba(164, 164, 157,0.6);
+    font-size: 1.5rem;
+    background-color: rgb(41, 40, 40);
+
+}
